@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UserActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Register"
+    android:textSize="30sp"
+    android:textColor="#E6066F"
+    android:textStyle="bold" />
+<EditText
+    android:id="@+id/edtUser"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Username"
+    android:backgroundTint="#E6066F" />
+<Spinner
+    android:id="@+id/spGender"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:backgroundTint="#E6066F" />
+<EditText
+    android:id="@+id/edtDesc"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="10dp"
+    android:hint="Description"
+    android:inputType="textMultiLine"
+    android:gravity="center"
+    android:backgroundTint="#E6066F"/>
+<CheckBox
+    android:id="@+id/cbRules"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/rules" />
+<Button
+    android:id="@+id/btnRegister"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:text="Register"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:background="#E6066F" />
+</LinearLayout>
